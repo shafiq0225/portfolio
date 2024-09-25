@@ -1,0 +1,15 @@
+<nav>
+    <ul role="list" class="nav-bar animate" [ngClass]="{'fade-up': isLoading() }">
+
+        @for (navItem of navOptions(); track $index) {
+        <li [ngClass]="{ 'fade-up': isLoading() }">
+            <a [href]="navItem.href" class="nav-link">{{
+                navItem.title
+                }}</a>
+        </li>
+        }
+        <li [ngClass]="{ 'fade-up': isLoading() }">
+            <a href="https://flowcv.com/resume/4lkabptdt3" target="_blank" class="nav-link">Resume</a>
+        </li>
+    </ul>
+</nav>
