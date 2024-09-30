@@ -18,4 +18,8 @@ export class ModeToggleComponent {
     this.mode = toSignal(this.modeToggleService.modeChanged$) as Signal<Mode>;
     this.isLightMode = computed(() => this.mode() === Mode.LIGHT);
   }
+
+  toggle() {
+    this.modeToggleService.toggleMode();
+  }
 }

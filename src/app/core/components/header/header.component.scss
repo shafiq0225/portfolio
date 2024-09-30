@@ -62,6 +62,10 @@
   display: contents;
 }
 
+.header-span a span {
+  color: var(--clr-neutral-900);
+}
+
 @media (max-width: 800px) {
   .header-span {
     justify-content: space-between;
