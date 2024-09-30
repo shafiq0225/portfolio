@@ -5,11 +5,12 @@ import { AboutComponent } from "../../../feature/about/about.component";
 import { WorkExperienceComponent } from "../../../feature/work-experience/work-experience.component";
 import { ProjectsComponent } from "../../../feature/projects/projects.component";
 import { ContactComponent } from "../contact/contact.component";
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [HeaderComponent, HeroComponent, AboutComponent, WorkExperienceComponent, ProjectsComponent, ContactComponent],
+  imports: [HeaderComponent, HeroComponent, AboutComponent, WorkExperienceComponent, ProjectsComponent, ContactComponent, FooterComponent],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })
