@@ -26,6 +26,7 @@ section {
 .section-main-content p {
   max-width: 35rem;
   text-align: center;
+  color: var(--clr-neutral-900);
 }
 .about-section {
   padding: 4rem 1rem;
@@ -160,7 +161,7 @@ p {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: black
+  color: black;
 }
 
 @media (max-width: 900px) {
