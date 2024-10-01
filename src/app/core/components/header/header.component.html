@@ -12,5 +12,23 @@
             <app-navigation class="desktop-navbar"></app-navigation>
             <app-mode-toggle class="mode-toggle"></app-mode-toggle>
         </div>
+        <img
+      ngSrc="/assets/hamburger-icon.svg"
+      height="25"
+      width="25"
+      priority
+      class="only-mobile-visible mobile-nav-icon"
+      (click)="isMobileNavBarVisible.set(!isMobileNavBarVisible())"
+      (keydown)="isMobileNavBarVisible.set(!isMobileNavBarVisible())"
+      alt="navigation menu"
+      tabindex="0"
+    />
     </div>
 </header>
+@if (isMobileNavBarVisible()) {
+    <app-navigation
+      class="mobile-navbar"
+      [withCloseBtn]="true"
+      (closeClicked)="initiateNavBarClose()"
+    ></app-navigation>
+    }

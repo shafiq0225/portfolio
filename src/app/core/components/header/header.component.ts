@@ -32,4 +32,8 @@ export class HeaderComponent implements OnInit {
       this.currentScrollY = (event.currentTarget as Window)?.scrollY;
     }
   }
+
+  initiateNavBarClose() {
+    this.isMobileNavBarVisible.set(!this.isMobileNavBarVisible());
+  }
 }
