@@ -1,27 +1,42 @@
-# AppPortfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-## Development server
+### Weblink: [Live Website](https://shafiq0225.github.io/portfolio/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Code scaffolding
+## Introduction
+My Portfolio is a Angular 18 application that serves as an online portfolio to showcase my work, skills, and Projects. It provides an overview of my experience, displays my projects, and offers a way to contact me.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
+- About Me: An overview of my experiences, skills, and projects.
+- Projects: A collection of my notable projects with descriptions, screenshots, and links.
+- Skills: A list of my technical skills and proficiencies.
+- Resume: A link to download my resume.
+- Contact: A form to send me messages or inquiries.
 
-## Build
+## Technologies Used
+- Angular 18: A JavaScript framework for building user interfaces.
+- HTML5 & CSS3: Markup and styling languages for building web pages.
+- TypeScript: A programming language for adding interactivity to web applications.
+- Style-Components: A CSS framework for creating responsive and mobile-first designs.
+- Git: A version control system for tracking changes and collaborating on projects.
+- GitHub Pages: A platform for hosting and deploying web applications.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
+To run this portfolio locally, follow these steps:
 
-## Running unit tests
+1. Clone the repository: `git clone https://github.com/shafiq0225/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:4200/`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the About Me section to learn more about my background and skills. Visit the Projects section to see detailed information about my projects, including descriptions and screenshots. Use the Contact section to send me a message or inquiry.
