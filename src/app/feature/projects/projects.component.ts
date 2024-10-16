@@ -11,15 +11,15 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   public projects = [
     {
-      title: 'Ecom store',
+      title: 'Netflix Home Page',
       description:
-        'Ecom store front end implementation with homepage and cart feature.',
+        'Clone of Netflix website built using Angular as a Front-end',
       techList: ['Angular', 'TypeScript', 'HTML', 'CSS'],
       github: 'https://github.com/shafiq0225',
       screenshot:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgCbxMYliwIhN5pH2Q32Yi1yHB9n18fNCA_A&s',
-      live: 'https://ecomstore.pravinmane.com/',
-    },
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZhYUrmk6vDmi1-Pj7oI-HzTpQDCi9-IFTA&s.',
+      live: 'https://shafiq0225.github.io/app-netflix/browse',
+    },    
     {
       title: 'Simple Calculator',
       description:
