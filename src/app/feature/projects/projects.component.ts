@@ -15,7 +15,7 @@ export class ProjectsComponent {
       description:
         'Clone of Netflix website built using Angular as a Front-end',
       techList: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-      github: 'https://github.com/shafiq0225',
+      github: 'https://github.com/shafiq0225/app-netflix',
       screenshot:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZhYUrmk6vDmi1-Pj7oI-HzTpQDCi9-IFTA&s.',
       live: 'https://shafiq0225.github.io/app-netflix/browse',
