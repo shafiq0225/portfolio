@@ -68,7 +68,7 @@ section {
 
 .role-title {
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -88,6 +88,21 @@ section {
     border-radius: 2rem;
     background-color: rgb(0 88 247 / 18%);
     color: $clr-primary-500;
+  }
+}
+
+.tech-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+
+  p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 2rem;
+    background-color: rgb(0 88 247 / 18%);
+    color: $clr-secondary-600;
   }
 }
 
@@ -111,6 +126,10 @@ p {
 
 .hyperlink:hover {
   text-decoration-color: $clr-primary-500;
+}
+
+.role-description p {
+  margin-bottom: 5px
 }
 
 @media (max-width: 900px) {
