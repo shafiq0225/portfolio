@@ -25,10 +25,10 @@ export class ProjectsComponent {
       description:
         'Simple, highly configurable and modular calculator developed using Angular framework.',
       techList: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-      github: 'https://github.com/shafiq0225',
+      github: 'https://github.com/shafiq0225/clean-calculator',
       screenshot:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR697xyMAHvYprLralN94basdHM0w3SJXu6zNFiArgyTVwC-VaN8DG-0O2Jzy3NfL8EJto&usqp=CAU',
-      live: 'https://calculator.pravinmane.com/',
+      live: 'https://shafiq0225.github.io/clean-calculator/',
     },
     {
       title: 'Credit card input page challenge',
