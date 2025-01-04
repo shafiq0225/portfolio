@@ -18,7 +18,7 @@ export class ProjectsComponent {
       github: 'https://github.com/shafiq0225/AirBNB-clone',
       screenshot:
         'https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png',
-      live: 'https://airbnb-clone-frontend-8w55.onrender.com/',
+      live: 'https://shafiq0225.github.io/AirBNB-clone/',
     },
     {
       title: 'Netflix Home Page',
