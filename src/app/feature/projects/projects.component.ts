@@ -1,23 +1,40 @@
-import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [NgOptimizedImage],
+  imports: [],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
   public projects = [
     {
-      title: 'Personal Portfolio',
+      title: 'Mutual Fund Tracker & Analysis Platform (Monolith)',
       description:
-        'Production-grade Angular 18 SPA showcasing experience, skills, and projects. Built with Angular Signals, standalone components, lazy routing, and accessibility-first design patterns.',
+        'Full-stack enterprise Mutual Fund management app featuring AMFI automated NAV data ingestion pipelines, SIP portfolio calculations, P&L breakdown, and PDF statement parsing.',
+      techList: ['ASP.NET Core', 'Angular', 'SQL Server', 'Entity Framework', 'AMFI Pipeline', 'C#'],
+      github: 'https://github.com/shafiq0225/MutualFundConsolidated',
+      live: 'https://mutualfund-ui.onrender.com/login',
+      screenshot: './assets/mutual_fund_monolith.svg',
+    },
+    {
+      title: 'Enterprise Mutual Fund Platform (Microservices & MFE)',
+      description:
+        'Distributed Mutual Fund trading & portfolio management platform built with microservices architecture and Native Federation Micro Frontends (MFE). Features independent MFE deployments, Apache Kafka event streaming, Redis caching, MongoDB persistence, and Ocelot API Gateway routing.',
+      techList: ['ASP.NET Core 8', 'Microservices', 'Angular MFE', 'Apache Kafka', 'Redis', 'MongoDB', 'Ocelot'],
+      github: 'https://github.com/shafiq0225/MutualFundAppV2',
+      live: 'https://app-mutualfund-frontend.azurewebsites.net/',
+      screenshot: './assets/mutual_fund_mfe.svg',
+    },
+    {
+      title: 'Personal Portfolio App',
+      description:
+        'Production-grade Angular 18 SPA showcasing experience, skills, and projects. Built with Angular Signals, standalone components, lazy routing, dynamic experience calculation, and accessibility-first design patterns.',
       techList: ['Angular 18', 'TypeScript', 'Angular Signals', 'SCSS', 'GitHub Pages'],
       github: 'https://github.com/shafiq0225/portfolio',
-      screenshot: 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png',
       live: 'https://shafiq0225.github.io/portfolio/',
+      screenshot: './assets/portfolio_app.svg',
     },
     {
       title: 'AirBnB Clone',
@@ -25,8 +42,8 @@ export class ProjectsComponent {
         'End-to-end clone of the Airbnb vacation rental app built with Angular, RxJS, and TypeScript. Demonstrates component architecture, reactive data flow, and responsive UI design.',
       techList: ['Angular', 'TypeScript', 'RxJS', 'HTML', 'CSS'],
       github: 'https://github.com/shafiq0225/AirBNB-clone',
-      screenshot: 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png',
       live: 'https://shafiq0225.github.io/AirBNB-clone/',
+      screenshot: './assets/airbnb_clone.svg',
     },
     {
       title: 'Netflix Home Page',
@@ -34,8 +51,8 @@ export class ProjectsComponent {
         'Pixel-accurate Netflix landing page clone built with Angular. Focuses on responsive layout, CSS precision, and component-driven UI structure.',
       techList: ['Angular', 'TypeScript', 'HTML', 'CSS'],
       github: 'https://github.com/shafiq0225/app-netflix',
-      screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZhYUrmk6vDmi1-Pj7oI-HzTpQDCi9-IFTA&s.',
       live: 'https://shafiq0225.github.io/app-netflix/browse',
+      screenshot: './assets/netflix_clone.svg',
     },
     {
       title: 'Modular Calculator',
@@ -43,12 +60,12 @@ export class ProjectsComponent {
         'Simple, highly configurable, and modular calculator app built with Angular. Demonstrates clean component decomposition and reusable UI patterns.',
       techList: ['Angular', 'TypeScript', 'HTML', 'CSS'],
       github: 'https://github.com/shafiq0225/clean-calculator',
-      screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR697xyMAHvYprLralN94basdHM0w3SJXu6zNFiArgyTVwC-VaN8DG-0O2Jzy3NfL8EJto&usqp=CAU',
       live: 'https://shafiq0225.github.io/clean-calculator/',
+      screenshot: './assets/calculator_app.svg',
     }
   ];
 
-  public visibleProjects = this.projects.slice(0, 3);
+  public visibleProjects = this.projects.slice(0, 4);
 
   showMoreProjects() {
     if (this.visibleProjects.length < this.projects.length) {

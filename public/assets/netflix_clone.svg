@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <defs>
+    <linearGradient id="bg-net" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bg-net)"/>
+  
+  <!-- Netflix Red N logo symbol -->
+  <path d="M 115 40 L 135 40 L 165 120 L 165 40 L 185 40 L 185 130 L 165 130 L 135 50 L 135 130 L 115 130 Z" fill="#E50914"/>
+
+  <text x="150" y="160" font-family="Arial" font-size="14" font-weight="bold" fill="#E50914" text-anchor="middle">NETFLIX CLONE</text>
+  <text x="150" y="178" font-family="Arial" font-size="10" fill="#999999" text-anchor="middle">Angular • UI Component Architecture</text>
+</svg>

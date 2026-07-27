@@ -2,11 +2,11 @@
     <h1 class="section-title">Projects</h1>
     <div class="projects">
       @for (project of visibleProjects; track $index) {
-      <a class="project-card" [href]="project.live" target="_blank">
+      <div class="project-card">
         <div>
           <img
-            [ngSrc]="project.screenshot"
-            alt="project screenshot"
+            [src]="project.screenshot"
+            [alt]="project.title + ' screenshot'"
             height="100"
             width="150"
             class="project-img"
@@ -22,8 +22,16 @@
             <li>{{ tech }}</li>
             }
           </ul>
+          <div class="project-links">
+            @if (project.live) {
+              <a [href]="project.live" target="_blank" class="project-link-btn">Live App 🚀</a>
+            }
+            @if (project.github) {
+              <a [href]="project.github" target="_blank" class="project-link-btn github-btn">GitHub Code 💻</a>
+            }
+          </div>
         </div>
-      </a>
+      </div>
       }
     </div>
     @if (projects.length>visibleProjects.length) {
@@ -37,4 +45,3 @@
     </div>
     }
   </section>
-  
