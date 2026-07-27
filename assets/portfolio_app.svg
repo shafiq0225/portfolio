@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <defs>
+    <linearGradient id="bg-port" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B0764"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bg-port)"/>
+  
+  <rect x="35" y="30" width="230" height="140" rx="10" fill="#2E1065" stroke="#A855F7" stroke-width="2"/>
+  
+  <text x="150" y="80" font-family="Arial" font-size="28" font-weight="bold" fill="#C084FC" text-anchor="middle">&lt;Shafiq /&gt;</text>
+  <text x="150" y="110" font-family="Arial" font-size="13" font-weight="bold" fill="#E9D5FF" text-anchor="middle">ANGULAR 18 SPA PORTFOLIO</text>
+  
+  <rect x="75" y="130" width="150" height="24" rx="12" fill="#7E22CE"/>
+  <text x="150" y="146" font-family="Arial" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Angular Signals • SCSS</text>
+</svg>

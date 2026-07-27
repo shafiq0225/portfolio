@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="240" height="120">
+  <rect width="240" height="120" rx="12" fill="#FFFFFF"/>
+  <g transform="translate(20, 25)">
+    <!-- Infosys Distinct Blue Logo Text -->
+    <text x="100" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="bold" fill="#007CC3" text-anchor="middle" letter-spacing="-1">Infosys</text>
+    <path d="M 20 68 L 180 68" stroke="#007CC3" stroke-width="2"/>
+    <text x="100" y="78" font-family="Arial, sans-serif" font-size="7" font-weight="600" fill="#555555" text-anchor="middle" letter-spacing="1">NAVIGATE YOUR NEXT</text>
+  </g>
+</svg>

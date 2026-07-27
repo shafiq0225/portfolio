@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <defs>
+    <linearGradient id="bg-airbnb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5A5F"/>
+      <stop offset="100%" stop-color="#C1121F"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bg-airbnb)"/>
+  
+  <!-- Home Pin Icon -->
+  <path d="M 150 40 L 200 85 L 185 85 L 185 130 L 115 130 L 115 85 L 100 85 Z" fill="#FFFFFF"/>
+  <rect x="135" y="100" width="30" height="30" fill="#FF5A5F" rx="3"/>
+
+  <text x="150" y="160" font-family="Arial" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AIRBNB CLONE</text>
+  <text x="150" y="178" font-family="Arial" font-size="10" fill="#FFE4E6" text-anchor="middle">Angular • RxJS • Responsive</text>
+</svg>

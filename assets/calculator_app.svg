@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <defs>
+    <linearGradient id="bg-calc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004D40"/>
+      <stop offset="100%" stop-color="#00251A"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bg-calc)"/>
+
+  <!-- Calculator Frame -->
+  <rect x="95" y="25" width="110" height="135" rx="8" fill="#00796B" stroke="#80CBC4" stroke-width="2"/>
+  <rect x="105" y="38" width="90" height="25" rx="4" fill="#E0F2F1"/>
+  <text x="185" y="55" font-family="Courier New" font-size="14" font-weight="bold" fill="#004D40" text-anchor="end">42,890.5</text>
+
+  <!-- Keypad Buttons -->
+  <rect x="105" y="72" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="138" y="72" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="171" y="72" width="24" height="18" rx="3" fill="#FFB74D"/>
+
+  <rect x="105" y="96" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="138" y="96" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="171" y="96" width="24" height="18" rx="3" fill="#FFB74D"/>
+
+  <rect x="105" y="120" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="138" y="120" width="24" height="18" rx="3" fill="#80CBC4"/>
+  <rect x="171" y="120" width="24" height="18" rx="3" fill="#FFB74D"/>
+
+  <text x="150" y="180" font-family="Arial" font-size="12" font-weight="bold" fill="#E0F2F1" text-anchor="middle">MODULAR CALCULATOR</text>
+</svg>

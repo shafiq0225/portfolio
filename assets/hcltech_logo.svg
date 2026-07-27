@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="240" height="120">
+  <rect width="240" height="120" rx="12" fill="#FFFFFF"/>
+  <g transform="translate(20, 30)">
+    <!-- HCLTech Gradient / Blue Logo -->
+    <text x="100" y="50" font-family="'Arial Black', Arial, sans-serif" font-size="40" font-weight="900" fill="#002970" text-anchor="middle" letter-spacing="-1">HCLTech</text>
+    <text x="100" y="70" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0072CE" text-anchor="middle" letter-spacing="2.5">SUPERCHARGING PROGRESS</text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#1E1E1E"/>
+  <!-- EY Yellow Beam/Tag -->
+  <polygon points="120,35 170,20 170,65" fill="#FFE600"/>
+  <!-- EY Typography -->
+  <text x="50" y="130" font-family="'Helvetica Neue', Arial, sans-serif" font-size="95" font-weight="900" fill="#FFFFFF" letter-spacing="-4">EY</text>
+</svg>
