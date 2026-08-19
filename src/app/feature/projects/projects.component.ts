@@ -10,10 +10,10 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   public projects = [
     {
-      title: 'Mutual Fund Tracker & Analysis Platform (Monolith)',
+      title: 'Mutual Fund Tracker & AI MCP Gateway Platform',
       description:
-        'Full-stack enterprise Mutual Fund management app featuring AMFI automated NAV data ingestion pipelines, SIP portfolio calculations, P&L breakdown, and PDF statement parsing.',
-      techList: ['ASP.NET Core', 'Angular', 'SQL Server', 'Entity Framework', 'AMFI Pipeline', 'C#'],
+        'Full-stack Mutual Fund management platform & Model Context Protocol (MCP) server exposing financial tools, 9-scheme portfolio consolidation, and automated 05:05 AM IST daily morning digests across Telegram & WhatsApp.',
+      techList: ['.NET 8', 'MCP Protocol', 'Telegram API', 'UltraMsg WhatsApp', 'MySQL Cloud', 'Quartz.NET', 'Angular 18', 'Docker'],
       github: 'https://github.com/shafiq0225/MutualFundConsolidated',
       live: 'https://mutualfund-ui.onrender.com/login',
       screenshot: './assets/mutual_fund_monolith.svg',
