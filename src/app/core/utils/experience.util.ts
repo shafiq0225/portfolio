@@ -1,4 +1,6 @@
-export function getDynamicExperienceYears(startDateStr: string = '2017-09-03'): string {
+export function getDynamicExperienceYears(
+  startDateStr: string = '2017-09-03',
+): string {
   const start = new Date(startDateStr);
   const now = new Date();
 
@@ -17,12 +19,15 @@ export function getDynamicExperienceYears(startDateStr: string = '2017-09-03'): 
   if (months === 0) {
     return `${years} years`;
   }
-  
+
   const monthStr = months === 1 ? '1 month' : `${months} months`;
   return `${years} years and ${monthStr}`;
 }
 
-export function getCompanyDuration(startDateStr: string, endDateStr?: string): string {
+export function getCompanyDuration(
+  startDateStr: string,
+  endDateStr?: string,
+): string {
   const start = new Date(startDateStr);
   const now = endDateStr ? new Date(endDateStr) : new Date();
 
@@ -47,6 +52,8 @@ export function getCompanyDuration(startDateStr: string, endDateStr?: string): s
   return '0 mos';
 }
 
-export function getDynamicExperienceDetailed(startDateStr: string = '2017-09-03'): string {
+export function getDynamicExperienceDetailed(
+  startDateStr: string = '2017-09-03',
+): string {
   return getDynamicExperienceYears(startDateStr);
 }
